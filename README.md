@@ -1,4 +1,5 @@
 # library
 
-![Library_view](https://user-images.githubusercontent.com/87744721/148168579-c4b984c6-9c44-421d-bd42-5646429bef09.JPG)
-![Library_view2](https://user-images.githubusercontent.com/87744721/148168592-53709448-ed42-4d06-bb86-a896adbae455.JPG)
+Project purpose is simplify sources search for specific projects
+
+![Library_view3](https://user-images.githubusercontent.com/87744721/148170556-64679a5a-17f2-4118-a9eb-bc8397df0296.JPG)
