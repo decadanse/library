@@ -6,3 +6,7 @@ Project purpose is simplify sources search for specific projects
 
 In code: Info resources - in 'Book' class; Projects - in 'Student' class. 
 
+Plans:
+- add date binding after adding source to project
+- make the interface more user-friendly
+- add save and reading all info from .txt file 
