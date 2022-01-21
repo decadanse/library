@@ -6,7 +6,9 @@ Project purpose is simplify sources search for specific projects
 
 In code: Info resources - in 'Book' class; Projects - in 'Student' class. 
 
+More userfriendly interface (in file 'Library (Student and Book version).java' - rename it to 'Library.java' and change those .java to that)
+
 Plans:
 - add date binding after adding source to project
-- make the interface more user-friendly
 - add save and reading all info from .txt file 
+
