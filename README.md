@@ -4,6 +4,15 @@ Project purpose is simplify sources search for specific projects
 
 ## version 2.0.0
 all other folders than folder 'code'
+#### from 1.0.0:
+ - SQL DB connection
+ - assigned-to-progect marker
+ - more windows
+ - more functions
+ - edit source imfo
+ - add source
+ - logging actions into .txt file
+
 ![Library_view1](https://github.com/decadanse/library/blob/main/resources.PNG)
 
 
