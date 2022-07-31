@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane minHeight="525.0" minWidth="865.0" prefHeight="525.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StartController">
+    <children>
+        <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                 AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="23.0">
+            <tabs>
+                <Tab  text="Список всех источников">
+                    <content>
+                        <fx:include source="book/tabs/books.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  text="Доступные источники">
+                    <content>
+                        <fx:include source="book/tabs/books_available.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  text="Определенные на проект источники">
+                    <content>
+                        <fx:include source="book/tabs/books_not_available.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Список проектов">
+                    <content>
+                        <fx:include source="student/tabs/students.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <Button onAction="#relax" layoutX="214.0" layoutY="12.0" maxHeight="25.0" minHeight="25.0" minWidth="865.0"
+                mnemonicParsing="false" prefHeight="25.0" prefWidth="865.0" text="CREATOR INFO"
+                textAlignment="JUSTIFY" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0"/>
+    </children>
+</AnchorPane>
